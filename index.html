@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Portfolio</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	
+	<link rel='stylesheet' href='letters.css'/>
+	<link rel='stylesheet' href='style.css'/>
+	<link rel='stylesheet' href='button.css'/>
+	<link rel='stylesheet' href='3dimage.css'/>
+	
+  </head>
+  <body>
+    <div class="topnav responsive" id="myTopnav">
+		<a href="#about" onclick="activate(this)" class="active">ABOUT</a>
+		<a href="#works" onclick="activate(this)">WORKS</a>
+		<a href="#contact" onclick="activate(this)">CONTACT</a>
+		
+    </div>
+	<section id="about" >
+	 <div class="row" data-aos="fade-up">
+	 <div class="coln"><h3 class="name">LUCA PEDRANZINI</h3>
+		  <p class="ml3">Blockchain Development Student</p>
+			<div id="container">
+				<button class="learn-more">
+				<span class="circle" aria-hidden="true">
+					<span class="icon arrow"></span>
+				</span>
+				<a href="https://talent.start2impact.it/profile/luca-pedranzini" target="_blank"><span class="button-text">LEARN MORE</span></a>
+				</button>
+			</div>
+	 </div>
+	 <img src="images/prof150x150.jpg" id="proimg"/>
+	 </div>
+	</section>
+
+   <section id="bio">
+      <h2 data-aos="fade-up"  data-aos-duration="1000">ABOUT ME</h2>
+	   <div class="row" data-aos="fade-up" data-aos-duration="1500">
+	      <div class="coln c-single">
+		  <p>Ciao, mi chiamo Luca e vengo da Bormio.<br>Mi piacciono le  nuove  tecnologie , risolvere problemi e capire come funzionano le cose.<br>Finita la scuola superiore mi sono subito cimentato con il percorso di Start2impact, a settembre incomincerò un percorso universitario al <i>Politecnico di Milano</i> e intanto cercherò di continuare ad acquisire competenze pratiche e fare qualche esperienza di lavoro.<br><br> Fra le mie passioni ci sono la programmazione, la finanza personale, il mondo delle criptovalute ma anche la stampa e il design 3d.<br></p>
+	    
+		  <a href="mailto:p2001luca@gmail.com" class="emailme" target="_blank">EMAIL ME</a>
+		   </button>
+		 </div>
+	    </div>
+	</section>
+	<section id="works">
+      <h2 data-aos="fade-up"  data-aos-duration="1000">WORKS</h2>
+	<div class="row" data-aos="fade-up" data-aos-duration="1500">
+	
+	 <div class="coln">
+	   <h3 class="smtitle">BLOCKCHAT</h3>
+		<p>Un portale per lo scambio di messaggi validati con la blockchain</p>
+		<div id="container">
+				<button class="learn-more">
+				<span class="circle" aria-hidden="true">
+					<span class="icon arrow"></span>
+				</span>
+				<a href="https://github.com/lucapdr01/blockchat" target="_blank"><span class="button-text">TAKE A LOOK</span></a>
+				</button>
+			</div>
+	  </div>
+	  <div class="coln">
+	  <div class="flip-box" id="f1">
+		<div class="flip-box-inner">
+			<div class="flip-box-front">
+			<img src="images/chat1.png"class="iworks2" >
+			</div>
+		<div class="flip-box-back">
+			<img src="images/chat2.png"class="iworks2" >
+		</div>
+		</div>
+	</div>
+	</div>
+	
+	</div>
+	<div class="row" data-aos="fade-up" data-aos-duration="1500">
+	 <div class="coln">
+	 <div class="flip-box" id="f2">
+		<div class="flip-box-inner">
+			<div class="flip-box-front">
+			<img src="images/exc1.png"class="iworks2" >
+			</div>
+		<div class="flip-box-back">
+			<img src="images/exc2.png"class="iworks2" >
+		</div>
+		</div>
+	</div>
+	</div>
+	 <div class="coln">
+	   <h3 class="smtitle">BLOCKEXCHANGE</h3>
+		<p>Trading Platform basata su Django e MongoDB</p>
+		<div id="container">
+				<button class="learn-more">
+				<span class="circle" aria-hidden="true">
+					<span class="icon arrow"></span>
+				</span>
+				<a href="https://github.com/lucapdr01/blockexchange" target="_blank"><span class="button-text">TAKE A LOOK</span></a>
+				</button>
+			</div>
+	  </div>
+	
+	</div>
+	</section>
+	<section >
+      <h2 data-aos="fade-up" data-aos-duration="1000">MORE</h2>
+	<div class="row" data-aos="fade-up" data-aos-duration="1500">
+	 <div class="coln">
+		<h3 class="smtitle">KARTBORMIO.IT</h3>
+		<p>Sito Web per un'attività locale, è il mio primo progetto pratico che ho fatto nel 2018</p>
+		<div id="container">
+				<button class="learn-more">
+				<span class="circle" aria-hidden="true">
+					<span class="icon arrow"></span>
+				</span>
+				<a href="http://www.kartbormio.it/" target="_blank"><span class="button-text">TAKE A LOOK</span></a>
+				</button>
+			</div>
+	  </div>
+	  <div class="coln">
+	    <div class="flip-box" id="f3">
+		  <div class="flip-box-inner">
+			 <div class="flip-box-front">
+			 <img src="images/kart.png"class="iworks2" >
+			 </div>
+		  <div class="flip-box-back">
+			<img src="images/kart2.png"class="iworks2" >
+		  </div>
+		  </div>
+	    </div>
+     </div>
+	</div>
+	<div class="row" data-aos="fade-up" data-aos-duration="1500">
+	 <div class="coln">
+	 <div class="flip-box" id="f4">
+		<div class="flip-box-inner">
+			<div class="flip-box-front">
+			<img src="images/Nuts-Cracker.png"class="iworks2" >
+			</div>
+		<div class="flip-box-back">
+			<img src="images/Nuts-Cracker2.png"class="iworks2" >
+		</div>
+		</div>
+	</div>
+	</div>
+	 <div class="coln">
+	   <h3 class="smtitle">NUTS CRACKER</h3>
+		<p>Game App mobile pubblicata sul Play Store nel 2019, realizzata con Unity 3d e C#</p>
+		<div id="container">
+				<button class="learn-more">
+				<span class="circle" aria-hidden="true">
+					<span class="icon arrow"></span>
+				</span>
+				<a href="https://play.google.com/store/apps/details?id=com.PLC.Nuts_Cracker" target="_blank"><span class="button-text">TAKE A LOOK</span></a>
+				</button>
+			</div>
+	  </div>
+	
+	</div>
+	</section>
+    <section id="contact" >
+	 <h3 data-aos="fade-up" data-aos-duration="1500" >LET'S CONNECT</h3>
+	  <div class="icocont" data-aos="fade-up" data-aos-duration="1500">
+	     <a href="https://github.com/lucapdr01"><span class="fa fa-github"></span></a>
+	   <a href="https://www.instagram.com/luca_pedranzini/?hl=it"><span class="fa fa-instagram"></span></a>
+	   <a href="#" ><span class="fa fa-linkedin"></span></a>
+	   <a href="mailto:p2001luca@gmail.com"><span class="fa glyphicon glyphicon-envelope"></span></a>
+	  </div>
+	</section>
+	<script>
+	  AOS.init();
+	
+		  $(document).ready(function(){
+           $("a").click(function(){
+           $("a").not($(this)).removeClass("active");
+                      });
+				});
+      
+		function activate(bt){
+		 $(bt).addClass("active")
+		}
+		// Wrap every letter in a span
+    var textWrapper = document.querySelector('.ml3');
+     textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+    anime.timeline({loop: false})
+    .add({
+    targets: '.ml3 .letter',
+    opacity: [0,1],
+    easing: "easeInOutQuad",
+    duration: 2000,
+    delay: (el, i) => 100 * (i+1)
+  });
+  
+  $(document).ready(function() {
+
+    $(window).on('resize', function() {
+        $('#f1').height( $('#f1').width() );
+    }).trigger('resize');
+	  $(window).on('resize', function() {
+        $('#f2').height( $('#f2').width() );
+    }).trigger('resize');
+	  $(window).on('resize', function() {
+        $('#f3').height( $('#f3').width() );
+    }).trigger('resize');
+	 $(window).on('resize', function() {
+        $('#f4').height( $('#f4').width() );
+    }).trigger('resize');
+
+});
+
+	</script>
+   </body>
+
+</html>

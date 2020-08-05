@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+  font-family: "Helvetica";
+  }
+  body
+  {
+	  background-color: #f0eee9;
+  }
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: green;
+  overflow: hidden;
+  border: 1px solid gray;
+  width: 80%;
+  margin: auto;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 7px 16px;
+  margin: 7px 3px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  border: 3px solid green;
+  border-radius: 25px;
+  color: white;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  border: 3px solid white;
+  border-radius: 25px;
+  color: white;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: white;
+  border: 3px solid green;
+  border-radius: 25px;
+  color: green;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+.name{
+  font-weight: 100;
+  font-size: 2.5em;
+  color:green;
+  padding-right: 20px;
+  padding-bottom:20px;
+  padding-top:20px;
+}
+.ml3 {
+  font-weight: 700;
+  font-size: 1.5em;
+ 
+}
+#proimg
+{
+	border-radius: 50%;
+	align-self: center;
+	box-shadow: 0 0 15px #333333;
+	
+}
+.iworks {
+	width: 31%;
+	margin-right: 20px;
+	margin-left: 20px;
+	border-radius: 20px;
+	align-self: center;
+}
+.iworks2 {
+	width: 100%;
+	border-radius: 20px;
+	box-shadow: 0 0 25px #333333;
+}
+#nuts {
+	content:url("images/Nuts-Cracker.png");	
+}
+#nuts:hover {
+	content:url("images/kart.png");	
+}
+
+
+
+nav {
+  color: #fff;
+  background-color: #5995DA;  /* Blue */
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.menu {
+ border: 1px solid #fff;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  padding: 50px 20px;
+  width: 80%;
+  background-color: white;
+  margin: auto;
+  box-shadow: 0 0 25px #333333;
+}
+section h2{
+	color: gray;
+	margin-bottom: 40px;
+	font-weight: 800;
+	border-bottom: 3px solid gray;
+}
+.coln{
+	display: flex;
+	flex-direction: column;
+	width:30%;
+	margin-left:20px;
+	margin-right:20px;
+	
+}
+.c-single{
+	width:40%;
+}
+.row{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    width: 100%;
+	justify-content: center;
+	padding-bottom: 50px;
+	
+}
+
+.smtitle{
+	font-weight: 700;
+	color: green;
+}
+.emailme{
+	background-color: red;
+	border: 1px solid red;
+	font-weight: 550;
+	color: white;
+	border-radius:25px;
+	text-align: center;
+	padding: 2px 2px;
+	width:20%;
+	min-width: 100px;
+}
+.emailme:hover{
+	border: 1px solid red;
+	background-color: white;
+	opacity:80;
+	color: red;
+	text-decoration: none;
+}
+
+.mybt{
+	margin-top: 50px;
+	width: 200px;
+}
+.icocont{
+	display: flex;
+	flex-wrap:
+	justify-content: space-between;
+	
+}
+#contact{
+	background-color: green;
+	color: white;
+	font-weight: bold;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 50%;
+
+}
+.fa:hover{
+	opacity: 80%;
+}
+.glyphicon-envelope{
+  background: red;
+  color: white;
+  
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-github {
+  background: #24292e;
+  color: white;
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 800px) {
+	* {
+  margin:0;
+  padding:0;
+    }
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a {
+    /*float: none;*/
+	float: left;
+	display: block;
+	width:30%;
+	text-align: center;
+  }
+  section{
+	  width:100%;
+	  margin-left:0px !important;
+	  margin-right: 0px !important;
+	  padding-left:0px;
+	  padding-right:0px;
+  }
+  .topnav{
+	  width:100%;
+	  margin-left:0px !important; 
+	  margin-right: 0px !important;
+  }
+  .row{
+	
+	justify-content: space-between;
+	margin-left: 0px !important;
+	  margin-right: 0px !important;
+	
+}
+  .coln{
+	  margin-left: 0px !important;
+	  margin-right: 0px !important;
+  }
+  .c-single{
+	width:80%;
+}
+  #proimg
+{
+
+	width: 40%;
+	margin-left:20px;
+	
+
+	
+}
+}
